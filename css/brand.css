@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    font-family: serif;
+    text-align: center;
+}
+
+
+.catch {
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.catch h2 {
+    margin-bottom: 8%;
+}
+
+.catch p {
+    margin-bottom: 3%;
+}
+
+.catch img {
+    width: 10%;
+    position: absolute;
+    top: 90%;
+    left: 20%;
+}
+
+/*セクションでフレックスかけてる*/
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+section div {
+    width: 30%;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+.brand img {
+    width: 100%;
+}
+
+.brand {
+    margin-bottom: 15%;
+}
+
+
+/*pの文字サイズ指定はここ*/
+
+.brand p {
+    font-size: 12px;
+}
+
+.pickup p {
+    font-size: 12px;
+}
+
+
+/*下のピックアップのコピペゾーン*/
+hr {
+    height: 1px;
+    background-color: darkgray;
+    border: none;
+}
+
+h2 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.pickup img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.pickup {
+    margin-bottom: 15%;
+}
+
+.pickup-c1,
+.pickup-c2,
+.pickup-c3 {
+    width: 30%;
+    position: relative;
+}
+
+.p-moji {
+    width: 85%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.p-moji h4 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 10%;
+}
+
+/*おぱ*/
+
+.pickup-c1 a:hover,
+.pickup-c2 a:hover,
+.pickup-c3 a:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}

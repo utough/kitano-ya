@@ -1,0 +1,2 @@
+# kitano-ya
+kitanoya-sight
